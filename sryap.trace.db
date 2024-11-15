@@ -106,3 +106,7 @@ Wrong user name or password [28000-224]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
 	... 100 more
+2024-11-15 14:07:51.130750-05:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * [*]FROMUSER_ROLES"
+Syntax error in SQL statement "SELECT * [*]FROMUSER_ROLES"; SQL statement:
+SELECT * FROMUSER_ROLES [42000-224]
